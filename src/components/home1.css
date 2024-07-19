@@ -1,0 +1,85 @@
+/* home1.css */
+
+.home-about-section {
+  background-color: #ffffff; /* Light background for clarity */
+  padding: 60px 15px; /* Adequate padding for top and bottom */
+}
+
+.home-about-description {
+  padding: 0 30px; /* Horizontal padding for the description */
+}
+
+.home-about-heading {
+  font-size: 2.5rem; /* Font size for main heading */
+  color: #333; /* Dark text color for readability */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.purple {
+  color: #6f42c1; /* Purple color for emphasis */
+}
+
+.home-about-body {
+  font-size: 1.1rem; /* Font size for body text */
+  color: #555; /* Slightly darker text color for better readability */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+.myAvatar {
+  display: flex;
+  justify-content: center; /* Center the avatar image */
+  align-items: center;
+  padding: 20px; /* Padding around the image */
+}
+
+.myAvatar img {
+  border-radius: 50%; /* Round shape for the avatar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  max-width: 100%; /* Responsive width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.home-about-social {
+  text-align: center; /* Center-align the social links */
+  margin-top: 40px; /* Margin above social links */
+}
+
+.home-about-social-heading {
+  font-size: 2rem; /* Font size for social heading */
+  color: #333; /* Dark text color for readability */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+.home-about-social-links {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 0 15px; /* Space between icons */
+}
+
+.home-social-icons {
+  font-size: 24px; /* Icon size */
+  color: #6f42c1; /* Purple color for icons */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.home-social-icons:hover {
+  color: #333; /* Change color on hover */
+}
+
+@media (max-width: 768px) {
+  .home-about-heading {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-about-body {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-about-social-heading {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}

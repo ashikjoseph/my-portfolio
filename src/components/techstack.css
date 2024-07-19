@@ -1,0 +1,26 @@
+/* Techstack CSS */
+.techstack-row {
+    justify-content: center; /* Center the icons horizontally */
+    padding: 30px 0; /* Vertical padding */
+  }
+  
+  .tech-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0; /* Vertical spacing */
+    text-align: center; /* Center the text */
+  }
+  
+  .icon {
+    font-size: 4em; /* Icon size */
+    color: #333; /* Icon color */
+    margin-bottom: 10px; /* Space between icon and label */
+  }
+  
+  .icon-label {
+    font-size: 1.1em; /* Label size */
+    color: #555; /* Label color */
+    margin: 0; /* Remove default margin */
+  }
+  

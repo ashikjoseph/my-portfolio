@@ -1,0 +1,49 @@
+/* About.css */
+
+.about-section {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 30px 15px; /* Padding around the section: top-bottom 30px, left-right 15px */
+  }
+  
+  .about-text {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .about-heading {
+    font-size: 33px; /* Font size in pixels */
+    padding-bottom: 20px;
+  }
+  
+  .about-img {
+    padding-top: 120px; /* Space above the image */
+    padding-bottom: 50px; /* Space below the image */
+  }
+  
+  .about-img img {
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  .project-heading {
+    font-size: 32px; /* Font size in pixels */
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .purple {
+    color: #6f42c1; /* Purple color class */
+  }
+  
+  .mb-5 {
+    margin-bottom: 30px; /* Space below elements using this class */
+  }
+  
+  @media (max-width: 768px) {
+    .about-img {
+      padding-top: 30px; /* Reduced padding for smaller screens */
+    }
+  
+    .about-heading {
+      font-size: 28px; /* Adjusted font size for smaller screens */
+    }
+  }
+  

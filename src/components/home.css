@@ -1,0 +1,59 @@
+/* home.css */
+
+.home-section {
+  background-color: #f0f0f0; /* Light background for a clean look */
+  padding: 60px 15px; /* Padding around the section */
+  margin-top: 100px; /* Space above the section */
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.home-header {
+  text-align: left; /* Align text to the left */
+}
+
+.greeting {
+  font-size: 1.8rem; /* Font size for greeting */
+  color: #333; /* Dark color for text */
+  margin-bottom: 10px; /* Space below the greeting */
+}
+
+.name {
+  font-size: 2.6rem; /* Larger font size for the name */
+  font-weight: bold; /* Make the name bold */
+  color: #6f42c1; /* Purple color for the name */
+  margin-bottom: 20px; /* Space below the name */
+}
+
+.home-description {
+  padding: 20px 0; /* Padding around the description */
+}
+
+.home-logo-col {
+  display: flex;
+  justify-content: center; /* Center logo horizontally */
+  align-items: center;
+  padding: 20px; /* Padding around the logo */
+}
+
+.home-logo {
+  max-height: 450px; /* Maximum height for the logo */
+}
+
+@media (max-width: 768px) {
+  .greeting {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .name {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .home-logo {
+    max-height: 300px; /* Adjust logo height for smaller screens */
+  }
+}

@@ -1,0 +1,36 @@
+/* Resume.css */
+
+.resume-section {
+    padding: 2rem;
+    background-color: #f8f9fa; /* Light background color for contrast */
+    margin-top: 20px; /* Adjust this value if needed to avoid overlap with the navbar */
+  }
+  
+  .download-button {
+    background-color: #007bff; /* Primary color */
+    border: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem; /* Adjusted padding for better visibility */
+    border-radius: 0.5rem; /* Slightly larger radius for rounded corners */
+    display: flex;
+    align-items: center; /* Center icon and text vertically */
+    gap: 0.5rem; /* Space between icon and text */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  .pdf-viewer {
+    border: 1px solid #ddd; /* Light border around the iframe */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  @media (max-width: 768px) {
+    .pdf-viewer {
+      height: 600px; /* Adjust height for smaller screens */
+    }
+  }
+  
